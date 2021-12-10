@@ -1,3 +1,8 @@
+class Node:
+    der __init__(self):
+        self.children = collections.defaultdict(Node)
+        self.isword = False
+
 class Tire:
     def __init__(self):
         self.root = Node()
